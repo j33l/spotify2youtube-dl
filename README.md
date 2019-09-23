@@ -7,6 +7,6 @@ Or add it's path to `%PATH` variable.
 In Ubuntu/Linux OS, PPA(ppa:mc3man/trusty-media) provides recent builds.
 
 # Usage 
->node sf2yt-dl <spotify/song/link>
+>node sf2yt-dl.js <spotify/song/link>
 
 -> song will be downloaded in proj. root dir
