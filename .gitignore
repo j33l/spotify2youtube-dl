@@ -1,0 +1,4 @@
+node_modules/
+ffmpeg_executables/
+*.mp*
+*.exe*
