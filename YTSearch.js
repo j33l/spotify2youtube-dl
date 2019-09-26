@@ -8,7 +8,7 @@ const searchedLink = (searchTerms) => {
             if (error) reject('YTSearch Error!')
 
             console.log(videos[0])
-            resolve(videos[0].url)
+            resolve('https://www.youtube.com' + videos[0].url)
         })
     })
 }

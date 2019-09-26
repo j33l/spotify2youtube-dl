@@ -1,8 +1,8 @@
-/* SpotifySongLink -> songData -> youyubeSearch -> youtubeVidDownload -> vid2audConversion -> removingVideoFile
+/* SpotifySongLink -> songData -> youtubeSearch -> YTVideoLink ->  youtubeVidDownload -> vid2audConversion -> removingVideoFile
 */
 
 const fs = require('fs')
-var { getPreview } = require("spotify-url-info");
+const { getPreview } = require('spotify-url-info')
 const getLink = require('./YTSearch')
 const dlVid = require('./YT-dl')
 const vid2aud = require('./vid2aud')

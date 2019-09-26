@@ -3,9 +3,8 @@
 const youtubedl = require('youtube-dl')
 var fs = require('fs')
 
-const ytDL = (link) => {
+const ytDL = (YTLink) => {
     return new Promise((resolve, reject) => {
-        var YTLink = 'https://www.youtube.com' + link
 
         var video = youtubedl(YTLink, ['-x', '--audio-format', 'mp3'], { cwd: __dirname })
 

@@ -10,3 +10,8 @@ In Ubuntu/Linux OS, PPA(ppa:mc3man/trusty-media) provides recent builds.
 >node sf2yt-dl.js <spotify/song/link>
 
 -> song will be downloaded in proj. root dir
+
+# Needed
+-> GUI
+-> Accept Song search and YT link to DL
+-> Code Guard
