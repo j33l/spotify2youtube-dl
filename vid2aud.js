@@ -22,16 +22,4 @@ const convert = (input, output) => { // input - string, path input file, output 
     })
 }
 
-async function vid2aud(inputFile, outFile) {
-    const message = await convert(inputFile, outFile)
-    return message
-}
-
-// use example
-// vid2aud('./myvideo.mp4', './thunder.mp3').then((result) => {
-//     console.log(result)
-// }).catch((error) => {
-//     console.log(error)
-// })
-
-module.exports = vid2aud
+module.exports = convert

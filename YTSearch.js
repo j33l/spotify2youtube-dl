@@ -13,16 +13,4 @@ const searchedLink = (searchTerms) => {
     })
 }
 
-async function getLink(searchTerms) {
-    var link = await searchedLink(searchTerms)
-    return link
-}
-
-// use example
-// getLink('thunder').then((link) => {
-//     console.log(link)
-// }).catch((error) => {
-//     console.log(error)
-// })
-
-module.exports = getLink
+module.exports = searchedLink
